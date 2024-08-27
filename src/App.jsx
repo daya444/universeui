@@ -7,7 +7,7 @@ import Homepage from "./Homepage";
 import CurvedLineUp from "./CurvedLineUp";
 import StartupInfo from "./StartupInfo";
 import Usecases from "./Usecases";
-import { Ecosystem } from "./Eco-system";
+import { Ecosystem } from "./EcoSystem";
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
           <Route path="/practice" element={<Practice />} />
           <Route path="/curved-lineup" element={<CurvedLineUp/>}/>
           <Route path="/startup-info" element={<StartupInfo />} />
+          <Route path="/ecosystem" element={<Ecosystem />} />
         </Routes>
       </div>
   );
